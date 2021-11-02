@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+    background-image: linear-gradient(white, rgb(0, 255, 43));
+    background-attachment: fixed;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 19px;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+h3{
+    font-weight: 2rem;
+    font-weight: 500;
+}
+h4{
+    font-weight: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+h5{
+    font-weight: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+
+.btn{
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 2px solid;
+    transition: 0.5s;
+}
+
+.input-group-text{
+    background-color: #198754;
+    border: 2px solid #198754;
+
+    color: white;
+    font-weight: 600;
+}
+.form-control{
+    border: none;
+    border-bottom: 2px solid #198754;
+    border-right: 2px solid #198754;
+    border-top-right-radius: 0%;
+    transition: 0.5s;
+}
+.form-select{
+    border: none;
+    border-bottom: 2px solid #198754;
+    border-right: 2px solid #198754;
+    border-top-right-radius: 0%;
+    transition: 0.5s;
+}
+.form-select:focus, .form-control:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-bottom: 2px solid #198754;
+    border-right: 2px solid #198754;
+
+    background-color: rgba(25, 135, 84, 0.1);
+} 
+
+.img{
+    max-width: 700px;
+    width: 100%;
+
+    filter: opacity(90%);
+}
+
+footer{
+    padding: 1% 2%;
+    background-color: white;
+
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align:  center;
+}
+
+.modal-header{
+    background-color: #198754;
+    color: white;
+}
+.modal-body li{
+    padding: 2%;
+}
+.modal-body a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.modal-body a:hover{
+    font-size: 1.2rem;
+    color: #198754;
+}
+
+.hidden{
+    display: none;
+}
